@@ -3,7 +3,6 @@ ls
 ls -al
 pwd
 
-git clone https://github.com/fanghyun/basic_python_68_2.git
 
 git init
 git remote add origin https://github.com/fanghyun/basic_python_68_2.git 
@@ -16,3 +15,5 @@ git commit -m "your Message"  คลิกขวา ซิฟไฟล์
 git push origin main ส่งไฟล์ซิฟไปเซฟ
 
 git pull origin main ดึงโค้ดลงมาอัพเดตที่เครื่องเรา 
+
+git clone https://github.com/fanghyun/basic_python_68_2.git
