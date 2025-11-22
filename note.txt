@@ -1,0 +1,18 @@
+cd
+ls
+ls -al
+pwd
+
+git clone https://github.com/fanghyun/basic_python_68_2.git
+
+git init
+git remote add origin https://github.com/fanghyun/basic_python_68_2.git 
+
+git config --global user.name "fanghyun"
+git config --global user.email "your email(fang181047@gmail.com)" เซ็ทให้คอมรู้ว่าผู้ใช้ชื่ออะไร อีเมลอะไร 
+
+git add . เลือกไฟล์
+git commit -m "your Message"  คลิกขวา ซิฟไฟล์
+git push origin main ส่งไฟล์ซิฟไปเซฟ
+
+git pull origin main ดึงโค้ดลงมาอัพเดตที่เครื่องเรา 
